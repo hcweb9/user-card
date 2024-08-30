@@ -1,0 +1,131 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Montserrat";
+  font-size: 1.6rem;
+}
+
+.layout {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #002b36;
+}
+
+.layout_main {
+  min-width: 40rem;
+  border: 2rem;
+  background-color: azure;
+  box-shadow: 0px 0px 14px #196E6C;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.main__user {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 3rem;
+  background-color: #003847;
+  border-radius: 10px 10px 0 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -ms-border-radius: 10px 10px 0 0;
+  -o-border-radius: 10px 10px 0 0;
+}
+
+.user__container-img {
+  width: 13rem;
+  height: 13rem;
+  background-color: azure;
+  padding: 0.5rem;
+  margin-top: 7rem;
+  margin-bottom: 2rem;
+  border-radius: 13rem;
+  -webkit-border-radius: 13rem;
+  -moz-border-radius: 13rem;
+  -ms-border-radius: 13rem;
+  -o-border-radius: 13rem;
+}
+
+.user__img {
+  border-radius: 13rem;
+  -webkit-border-radius: 13rem;
+  -moz-border-radius: 13rem;
+  -ms-border-radius: 13rem;
+  -o-border-radius: 13rem;
+  width: 100%;
+  height: 100%;
+}
+
+.user__content {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.user__name {
+  color: azure;
+  font-weight: 600;
+  margin-right: 0.3rem;
+  cursor: pointer;
+}
+
+.user__nickname,
+.user__city {
+  color: azure;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.main__follows{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 3rem 4rem;
+    text-align: center;
+
+}
+
+.follow__follow{
+    border: 2px solid transparent;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    width: 33.3%;
+}
+
+.follow__follow:hover{
+    border: 2px solid #003847;
+}
+
+.follow__number{
+    color: #564948;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.follow__subtitle{
+    color: black;
+    font-weight: 600;
+    font-size: 1.4rem;
+    opacity: 0.5;
+}
